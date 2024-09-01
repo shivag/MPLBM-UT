@@ -13,7 +13,7 @@ def download_geometry(filename, url):
         raise InterruptedError(f'wget was not found. Please make sure it is installed on your system.')
     return
 
-
+# run some examples
 def run_1_phase_sim(inputs):
 
     if inputs['simulation type'] == '2-phase':
